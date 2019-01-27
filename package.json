@@ -1,0 +1,23 @@
+{
+  "name": "cdc-service",
+  "version": "1.0.0",
+  "description": "JSON-based web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosDelaCruz29/cdc-service.git"
+  },
+  "author": "Carlos Dela Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosDelaCruz29/cdc-service/issues"
+  },
+  "homepage": "https://github.com/CarlosDelaCruz29/cdc-service#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
