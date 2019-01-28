@@ -49,6 +49,7 @@ class ShowHelper {
                     && show.image.showImage != null && show.title != null;
             });
         }
+        
         return null;
     }
 

@@ -1,7 +1,7 @@
 var assert = require('assert');
-var fetch = require("node-fetch");
+var fetch = require('node-fetch');
  
-describe('api', () => {
+describe('Service Tests', () => {
     let serviceUrl = "http://localhost:3000/";
     let badRequestResponseJson = JSON.stringify({
         "error": "Could not decode request: JSON parsing failed"

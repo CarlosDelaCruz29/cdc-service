@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser')
 const express = require('express');
 const app = express();
-const ShowHelper = require('./source/ShowHelper');
+const ShowHelper = require('./src/ShowHelper');
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
