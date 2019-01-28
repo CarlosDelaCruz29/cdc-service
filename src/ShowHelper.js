@@ -49,7 +49,7 @@ class ShowHelper {
                     && show.image.showImage != null && show.title != null;
             });
         }
-        
+
         return null;
     }
 
@@ -64,7 +64,7 @@ class ShowHelper {
                 "image": show.image.showImage,
                 "slug": show.slug,
                 "title": show.title
-            }
+            };
         });
     }
 }
